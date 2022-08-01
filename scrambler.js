@@ -49,7 +49,13 @@ function linToX(N, lin) {
 }
 
 function linToY(N, lin) {
-    return int(floor((lin - 1) / N));
+    return Math.floor((lin - 1) / N);
+}
+
+function getRandomInt2(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
 }
 
 function shuffleNumbers(array, N) {
@@ -58,7 +64,7 @@ function shuffleNumbers(array, N) {
     let swapsAmount = 0;
     for (let i = 0; i <= lastI; i++) {
 
-        randomInt = int(random(i, maxN - 1));
+        randomInt = getRandomInt2(i, maxN - 1);
         if (i != randomInt) {
             swapsAmount++;
             tmp = array[i];
