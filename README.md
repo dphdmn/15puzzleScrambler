@@ -1,5 +1,5 @@
 # 15puzzleScrambler
-15 puzzles scramble generator
+15 puzzles scramble generator, there is js version and python version with the same function name called getScramble(N).
 
 usage example:
 ```
