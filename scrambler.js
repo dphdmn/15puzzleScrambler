@@ -14,10 +14,10 @@ function getScramble(n) {
 }
 
 /*
+
+USE CODE BELLOW IF YOU NEED BETTER RANDOM (IMPLEMENT IT YOURSELF)
 // Function to generate a secure random integer between min (inclusive) and max (exclusive)
-    function getRandomInt(min, max) {
-        //return yourRandomFunctionHere
-    }
+    function getRandomInt(min, max) {}
 
 function getScrambleCustomRNG(n) {
     let arr = Array.from({ length: n * n - 1 }, (_, i) => i + 1), parity = false;
