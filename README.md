@@ -13,3 +13,7 @@ gives 5x5 scramble string:
 ```
 
 you can use any n >= 2
+
+### Update 28.05.2024
+Added better (much shorter, especially js one / one function used only) versions of both js and python scramblers.
+Not very deeply tested, but should be fine
